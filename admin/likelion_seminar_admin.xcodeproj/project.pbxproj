@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		503729C72CB4C377002688EC /* SeminarStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503729C62CB4C376002688EC /* SeminarStore.swift */; };
+		504909B92CB3C63700476D35 /* SeminarStatusListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504909B82CB3C63700476D35 /* SeminarStatusListView.swift */; };
+		504909BB2CB3C79600476D35 /* SeminarUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504909BA2CB3C79600476D35 /* SeminarUser.swift */; };
+		504909BD2CB3C82100476D35 /* SeminarUserStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504909BC2CB3C82100476D35 /* SeminarUserStore.swift */; };
+		506E92212CB4EB3C00BD08C7 /* SeminarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506E92202CB4EB3C00BD08C7 /* SeminarImageView.swift */; };
+		E038B07E2CB4D3A10040F692 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E038B07D2CB4D3A10040F692 /* GoogleService-Info.plist */; };
+		E038B0802CB4E5D30040F692 /* SeminarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E038B07F2CB4E5CD0040F692 /* SeminarDetailView.swift */; };
+		E038B0822CB4F4120040F692 /* EditSeminarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E038B0812CB4F40D0040F692 /* EditSeminarView.swift */; };
+		FB7A9EAB2CB3BDF600B28D1B /* CreateSeminarTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7A9EAA2CB3BDF600B28D1B /* CreateSeminarTitleView.swift */; };
+		FB7A9EAD2CB3CFC700B28D1B /* CreateSeminarDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7A9EAC2CB3CFC700B28D1B /* CreateSeminarDateView.swift */; };
+		FB7A9EAF2CB3D62800B28D1B /* CreateSeminarAddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7A9EAE2CB3D62800B28D1B /* CreateSeminarAddressView.swift */; };
+		FBE8303D2CB506810067AC42 /* FAQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8303C2CB506810067AC42 /* FAQ.swift */; };
+		FBE830402CB5070C0067AC42 /* FAQListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8303F2CB5070C0067AC42 /* FAQListView.swift */; };
+		FBE830422CB507180067AC42 /* FAQStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE830412CB507180067AC42 /* FAQStore.swift */; };
+		FBE830442CB50BB20067AC42 /* FAQSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE830432CB50BB20067AC42 /* FAQSheetView.swift */; };
+		FBFCEE2C2CB3AF1C00AF274A /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = FBFCEE2B2CB3AF1C00AF274A /* FirebaseCore */; };
+		FBFCEE2E2CB3AF1C00AF274A /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = FBFCEE2D2CB3AF1C00AF274A /* FirebaseFirestore */; };
+		FBFCEE302CB3AF1C00AF274A /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = FBFCEE2F2CB3AF1C00AF274A /* FirebaseStorage */; };
+		FBFCEE372CB3AF9D00AF274A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBFCEE312CB3AF9D00AF274A /* Preview Assets.xcassets */; };
+		FBFCEE382CB3AF9D00AF274A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBFCEE332CB3AF9D00AF274A /* Assets.xcassets */; };
+		FBFCEE392CB3AF9D00AF274A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFCEE342CB3AF9D00AF274A /* ContentView.swift */; };
+		FBFCEE3A2CB3AF9D00AF274A /* likelion_seminar_adminApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFCEE352CB3AF9D00AF274A /* likelion_seminar_adminApp.swift */; };
+		FBFCEE3F2CB3AFE700AF274A /* Seminar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFCEE3E2CB3AFE700AF274A /* Seminar.swift */; };
+		FBFCEE412CB3B03400AF274A /* SeminarListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFCEE402CB3B03400AF274A /* SeminarListView.swift */; };
+		FBFCEE462CB3B45400AF274A /* CreateSeminarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFCEE452CB3B45400AF274A /* CreateSeminarViewModel.swift */; };
+		FBFCEEB82CB3B53000AF274A /* CreateSeminarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFCEEB72CB3B53000AF274A /* CreateSeminarContainerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		503729C62CB4C376002688EC /* SeminarStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeminarStore.swift; sourceTree = "<group>"; };
+		504909B82CB3C63700476D35 /* SeminarStatusListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeminarStatusListView.swift; sourceTree = "<group>"; };
+		504909BA2CB3C79600476D35 /* SeminarUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeminarUser.swift; sourceTree = "<group>"; };
+		504909BC2CB3C82100476D35 /* SeminarUserStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeminarUserStore.swift; sourceTree = "<group>"; };
+		506E92202CB4EB3C00BD08C7 /* SeminarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeminarImageView.swift; sourceTree = "<group>"; };
+		E038B07D2CB4D3A10040F692 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E038B07F2CB4E5CD0040F692 /* SeminarDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeminarDetailView.swift; sourceTree = "<group>"; };
+		E038B0812CB4F40D0040F692 /* EditSeminarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditSeminarView.swift; sourceTree = "<group>"; };
+		FB7A9EAA2CB3BDF600B28D1B /* CreateSeminarTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateSeminarTitleView.swift; sourceTree = "<group>"; };
+		FB7A9EAC2CB3CFC700B28D1B /* CreateSeminarDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateSeminarDateView.swift; sourceTree = "<group>"; };
+		FB7A9EAE2CB3D62800B28D1B /* CreateSeminarAddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateSeminarAddressView.swift; sourceTree = "<group>"; };
+		FBE8303C2CB506810067AC42 /* FAQ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQ.swift; sourceTree = "<group>"; };
+		FBE8303F2CB5070C0067AC42 /* FAQListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQListView.swift; sourceTree = "<group>"; };
+		FBE830412CB507180067AC42 /* FAQStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQStore.swift; sourceTree = "<group>"; };
+		FBE830432CB50BB20067AC42 /* FAQSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQSheetView.swift; sourceTree = "<group>"; };
+		FBFCEE192CB3AE5500AF274A /* likelion_seminar_admin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = likelion_seminar_admin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBFCEE312CB3AF9D00AF274A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FBFCEE332CB3AF9D00AF274A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBFCEE342CB3AF9D00AF274A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FBFCEE352CB3AF9D00AF274A /* likelion_seminar_adminApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = likelion_seminar_adminApp.swift; sourceTree = "<group>"; };
+		FBFCEE3E2CB3AFE700AF274A /* Seminar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seminar.swift; sourceTree = "<group>"; };
+		FBFCEE402CB3B03400AF274A /* SeminarListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeminarListView.swift; sourceTree = "<group>"; };
+		FBFCEE452CB3B45400AF274A /* CreateSeminarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateSeminarViewModel.swift; sourceTree = "<group>"; };
+		FBFCEEB72CB3B53000AF274A /* CreateSeminarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateSeminarContainerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBFCEE162CB3AE5500AF274A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBFCEE2C2CB3AF1C00AF274A /* FirebaseCore in Frameworks */,
+				FBFCEE2E2CB3AF1C00AF274A /* FirebaseFirestore in Frameworks */,
+				FBFCEE302CB3AF1C00AF274A /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBE8303E2CB506FA0067AC42 /* FAQ */ = {
+			isa = PBXGroup;
+			children = (
+				FBE8303F2CB5070C0067AC42 /* FAQListView.swift */,
+				FBE830412CB507180067AC42 /* FAQStore.swift */,
+				FBE830432CB50BB20067AC42 /* FAQSheetView.swift */,
+			);
+			path = FAQ;
+			sourceTree = "<group>";
+		};
+		FBFCEE102CB3AE5500AF274A = {
+			isa = PBXGroup;
+			children = (
+				FBFCEE362CB3AF9D00AF274A /* likelion_seminar_admin */,
+				FBFCEE1A2CB3AE5500AF274A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBFCEE1A2CB3AE5500AF274A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBFCEE192CB3AE5500AF274A /* likelion_seminar_admin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBFCEE322CB3AF9D00AF274A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FBFCEE312CB3AF9D00AF274A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FBFCEE362CB3AF9D00AF274A /* likelion_seminar_admin */ = {
+			isa = PBXGroup;
+			children = (
+				E038B07D2CB4D3A10040F692 /* GoogleService-Info.plist */,
+				FBFCEE3B2CB3AFA500AF274A /* App */,
+				FBFCEE3C2CB3AFAD00AF274A /* View */,
+				FBFCEE3D2CB3AFB900AF274A /* Model */,
+				FBFCEE322CB3AF9D00AF274A /* Preview Content */,
+				FBFCEE332CB3AF9D00AF274A /* Assets.xcassets */,
+				FBFCEE342CB3AF9D00AF274A /* ContentView.swift */,
+			);
+			path = likelion_seminar_admin;
+			sourceTree = "<group>";
+		};
+		FBFCEE3B2CB3AFA500AF274A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FBFCEE352CB3AF9D00AF274A /* likelion_seminar_adminApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FBFCEE3C2CB3AFAD00AF274A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FBE8303E2CB506FA0067AC42 /* FAQ */,
+				FBFCEE442CB3B42400AF274A /* CreateSeminar */,
+				FBFCEE402CB3B03400AF274A /* SeminarListView.swift */,
+				E038B07F2CB4E5CD0040F692 /* SeminarDetailView.swift */,
+				E038B0812CB4F40D0040F692 /* EditSeminarView.swift */,
+				506E92202CB4EB3C00BD08C7 /* SeminarImageView.swift */,
+				504909B82CB3C63700476D35 /* SeminarStatusListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FBFCEE3D2CB3AFB900AF274A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FBFCEE3E2CB3AFE700AF274A /* Seminar.swift */,
+				503729C62CB4C376002688EC /* SeminarStore.swift */,
+				504909BA2CB3C79600476D35 /* SeminarUser.swift */,
+				504909BC2CB3C82100476D35 /* SeminarUserStore.swift */,
+				FBE8303C2CB506810067AC42 /* FAQ.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FBFCEE442CB3B42400AF274A /* CreateSeminar */ = {
+			isa = PBXGroup;
+			children = (
+				FBFCEE452CB3B45400AF274A /* CreateSeminarViewModel.swift */,
+				FBFCEEB72CB3B53000AF274A /* CreateSeminarContainerView.swift */,
+				FB7A9EAA2CB3BDF600B28D1B /* CreateSeminarTitleView.swift */,
+				FB7A9EAC2CB3CFC700B28D1B /* CreateSeminarDateView.swift */,
+				FB7A9EAE2CB3D62800B28D1B /* CreateSeminarAddressView.swift */,
+			);
+			path = CreateSeminar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBFCEE182CB3AE5500AF274A /* likelion_seminar_admin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBFCEE272CB3AE5600AF274A /* Build configuration list for PBXNativeTarget "likelion_seminar_admin" */;
+			buildPhases = (
+				FBFCEE152CB3AE5500AF274A /* Sources */,
+				FBFCEE162CB3AE5500AF274A /* Frameworks */,
+				FBFCEE172CB3AE5500AF274A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = likelion_seminar_admin;
+			packageProductDependencies = (
+				FBFCEE2B2CB3AF1C00AF274A /* FirebaseCore */,
+				FBFCEE2D2CB3AF1C00AF274A /* FirebaseFirestore */,
+				FBFCEE2F2CB3AF1C00AF274A /* FirebaseStorage */,
+			);
+			productName = likelion_seminar_admin;
+			productReference = FBFCEE192CB3AE5500AF274A /* likelion_seminar_admin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBFCEE112CB3AE5500AF274A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					FBFCEE182CB3AE5500AF274A = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = FBFCEE142CB3AE5500AF274A /* Build configuration list for PBXProject "likelion_seminar_admin" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBFCEE102CB3AE5500AF274A;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				FBFCEE2A2CB3AF1C00AF274A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FBFCEE1A2CB3AE5500AF274A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBFCEE182CB3AE5500AF274A /* likelion_seminar_admin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBFCEE172CB3AE5500AF274A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBFCEE372CB3AF9D00AF274A /* Preview Assets.xcassets in Resources */,
+				FBFCEE382CB3AF9D00AF274A /* Assets.xcassets in Resources */,
+				E038B07E2CB4D3A10040F692 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBFCEE152CB3AE5500AF274A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504909BB2CB3C79600476D35 /* SeminarUser.swift in Sources */,
+				503729C72CB4C377002688EC /* SeminarStore.swift in Sources */,
+				FB7A9EAF2CB3D62800B28D1B /* CreateSeminarAddressView.swift in Sources */,
+				FB7A9EAB2CB3BDF600B28D1B /* CreateSeminarTitleView.swift in Sources */,
+				FBFCEEB82CB3B53000AF274A /* CreateSeminarContainerView.swift in Sources */,
+				FB7A9EAD2CB3CFC700B28D1B /* CreateSeminarDateView.swift in Sources */,
+				FBFCEE392CB3AF9D00AF274A /* ContentView.swift in Sources */,
+				E038B0802CB4E5D30040F692 /* SeminarDetailView.swift in Sources */,
+				504909BD2CB3C82100476D35 /* SeminarUserStore.swift in Sources */,
+				FBE8303D2CB506810067AC42 /* FAQ.swift in Sources */,
+				FBFCEE3A2CB3AF9D00AF274A /* likelion_seminar_adminApp.swift in Sources */,
+				E038B0822CB4F4120040F692 /* EditSeminarView.swift in Sources */,
+				FBFCEE462CB3B45400AF274A /* CreateSeminarViewModel.swift in Sources */,
+				FBE830402CB5070C0067AC42 /* FAQListView.swift in Sources */,
+				FBFCEE412CB3B03400AF274A /* SeminarListView.swift in Sources */,
+				FBE830442CB50BB20067AC42 /* FAQSheetView.swift in Sources */,
+				FBFCEE3F2CB3AFE700AF274A /* Seminar.swift in Sources */,
+				FBE830422CB507180067AC42 /* FAQStore.swift in Sources */,
+				506E92212CB4EB3C00BD08C7 /* SeminarImageView.swift in Sources */,
+				504909B92CB3C63700476D35 /* SeminarStatusListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FBFCEE252CB3AE5600AF274A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBFCEE262CB3AE5600AF274A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBFCEE282CB3AE5600AF274A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"likelion_seminar_admin/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "likelion_seminar_admin/GoogleService-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "likelion.likelion-seminar-admin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBFCEE292CB3AE5600AF274A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"likelion_seminar_admin/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "likelion_seminar_admin/GoogleService-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "likelion.likelion-seminar-admin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBFCEE142CB3AE5500AF274A /* Build configuration list for PBXProject "likelion_seminar_admin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBFCEE252CB3AE5600AF274A /* Debug */,
+				FBFCEE262CB3AE5600AF274A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBFCEE272CB3AE5600AF274A /* Build configuration list for PBXNativeTarget "likelion_seminar_admin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBFCEE282CB3AE5600AF274A /* Debug */,
+				FBFCEE292CB3AE5600AF274A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FBFCEE2A2CB3AF1C00AF274A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FBFCEE2B2CB3AF1C00AF274A /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FBFCEE2A2CB3AF1C00AF274A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		FBFCEE2D2CB3AF1C00AF274A /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FBFCEE2A2CB3AF1C00AF274A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		FBFCEE2F2CB3AF1C00AF274A /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FBFCEE2A2CB3AF1C00AF274A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FBFCEE112CB3AE5500AF274A /* Project object */;
+}
